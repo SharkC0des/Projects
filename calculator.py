@@ -30,11 +30,6 @@ def input_num():
                 print("Please, type in a number. ")
         else:
             break
-
-
-
-
-
 # Addition
 def Calculations():
     add = num1  + num2
