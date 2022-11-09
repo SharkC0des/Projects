@@ -59,7 +59,7 @@ def Calculations():
 
     # User's Fault, I take no responsibility
     else:
-        print("Invalid Input")
+        print("Invalid Input; Try Again")
 
 if __name__ == "__main__":
     main()
