@@ -18,7 +18,7 @@ def input_num():
 # Prompt user for Operator
 
     while True: #ASK ABOUT WHAT EXCEPTION WOULD WORK HERE
-        operator_choice = input("Choose Operator:(+, -, *, /)") 
+        operator_choice = input("Choose Operator:(+, -, *, /) ") 
         break
 
 # Prompts for second number
@@ -30,7 +30,7 @@ def input_num():
                 print("Please, type in a number. ")
         else:
             break
-        
+
 # Addition
 def Calculations():
     add = num1  + num2
