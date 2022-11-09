@@ -20,6 +20,32 @@ def input_num():
     while True: #ASK ABOUT WHAT EXCEPTION WOULD WORK HERE
         operator_choice = input("Choose Operator:(+, -, *, /) ") 
         break
+        
+
+        """
+
+        --------- THE WTF IS GOING ON CODE----------- ASK DURING MEETING 
+        Tried to re-prompt user when specified operator was not used: FAILEF
+        Elif's are broken and I don't understand why
+
+        # Tried using "or" to include operators in one line didn't work. ASK "-" or "*" or "/"
+        if operator_choice != "+": 
+            print("Choose an operator from the list provided")
+        
+        elif:
+             operator_choice =! "-": 
+                print("Choose an operator from the list provided")
+        elif:
+             operator_choice != "*": 
+                print("Choose an operator from the list provided")
+        elif:
+             operator_choice != "/": 
+                print("Choose an operator from the list provided")
+        else:
+            break
+        """    
+            
+            
 
 # Prompts for second number
         
