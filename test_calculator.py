@@ -1,11 +1,15 @@
-from calculator import input_num
+from calculator import calculations
 
 def main():
     test_num()
 
 def test_num():
-    assert input_num("A") == False
-    assert input_num("5") == True
+    assert calculations(1.0, "+", 2.0) == 3.0
+    #assert calculations() == "Choose Operator:(+, -, *, /)"
 
 if __name__ == "__main__":
     main()
+
+
+
+#Rarely test nput
