@@ -1,4 +1,4 @@
-calc.pydef main():
+def main():
     
     # Ask about global variables. Put "global num1, num2, operator_choice" here didn't work.
     # How would I create a unit test for this????
