@@ -4,13 +4,14 @@ def main():
     # Ask about global variables. Put "global num1, num2, operator_choice" here didn't work.
     # How would I create a unit test for this????
     num1, num2, operator_choice = input_num()
-    addition()
-    subtraction()
+    x = addition(num1, operator_choice, num2) #Returning the  addition value Assign the variable to the value
+    subtraction(num1, operator_choice, num)
     multiplication()
     divison()
     #result = addition, subtraction, multiplication, divison(num1, operator_choice, num2)#Moified
     #print(result)
     
+    #Conditional check in the main function Division check before coding the actuall function
         
 
 
@@ -49,24 +50,22 @@ def addition(num1, operator_choice, num2):
 #subtraction
 def subtraction(num1, operator_choice, num2):
     if operator_choice == "-":
-        subtract = num1 - num2
-        return subtract
+        return  num1 - num2
 #multiplicaiton
 def multiplication(num1, operator_choice, num2):
     if operator_choice == "-":
-        multiply = num1 * num2
-        return multiply
+        return num1 * num2
 #Division
 def divison(num1, operator_choice, num2):
     if operator_choice == "/":
         while True:
             try:
-                divide = num1 / num2
+                
             except ZeroDivisionError:
                 print("Can't divide by Zero")
             else:
                 sys.exit(1)
-            return divide
+            return num1 / num2
 
 
 
